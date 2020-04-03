@@ -1,5 +1,6 @@
 package fr.uvsq.exo5;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 /**
@@ -8,7 +9,11 @@ import java.util.ArrayList;
  * @author rabahallah yasmine
  *
  */
-public  final class Personnel  implements InterfacePersonnel  {
+public  final class Personnel  implements InterfacePersonnel ,Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * nom d une personne 
 	 */

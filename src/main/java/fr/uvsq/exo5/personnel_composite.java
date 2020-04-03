@@ -1,11 +1,16 @@
 package fr.uvsq.exo5;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
 
-public class personnel_composite  implements InterfacePersonnel{
+public class personnel_composite  implements InterfacePersonnel , Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * liste des personnels 
 	 */
