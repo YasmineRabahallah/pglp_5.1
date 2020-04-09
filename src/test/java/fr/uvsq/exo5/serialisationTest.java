@@ -33,7 +33,7 @@ public class serialisationTest {
 	@Test
 	public void saveObject2(){
 		Personnel p1 = new Personnel.Builder("rabahallah", "yasmine","chargé de mission").build();
-		personnel_composite g1 = new personnel_composite(1);
+		Personnelcomposite g1 = new Personnelcomposite(1);
 		g1.add(p1);
 		try {
 			FileOutputStream fos = new FileOutputStream("file") ;
