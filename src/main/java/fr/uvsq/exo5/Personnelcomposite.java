@@ -73,10 +73,10 @@ public class Personnelcomposite  implements Ipersonnel,Serializable {
   public String print() {
     StringBuffer sb = new StringBuffer();
     for (Ipersonnel p :personnes) {
-    	sb.append(" ");
-    	sb.append(p.print());
+      sb.append(" ");
+      sb.append(p.print());
     }
-    return "id groupe =" + id + " " +sb;
+    return "id groupe =" + id + " " + sb;
   }
 
   /**

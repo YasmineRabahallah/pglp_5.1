@@ -1,4 +1,5 @@
 package fr.uvsq.exo5;
+
 /**
  * interface DAO.
  * 
@@ -6,6 +7,7 @@ package fr.uvsq.exo5;
  *
  * @param <T> object.
  */
+
 public interface Dao<T> {
   /**
    * les operation CRUD.
@@ -13,9 +15,12 @@ public interface Dao<T> {
    * @param obj object.  
    * @return object.
    */
-	
+
   T create(T obj);
+
   T retrieve(String s);
+
   T update(T obj);
+
   void delete(T obj);
 }
